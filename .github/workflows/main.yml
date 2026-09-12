@@ -23,6 +23,6 @@ jobs:
 
       - name: Run monitor
         env:
-          IG_USERNAME: ${{ secrets.IG_USERNAME }}
+          INSTAGRAM_USERNAME: ${{ secrets.INSTAGRAM_USERNAME }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python monitor.py
